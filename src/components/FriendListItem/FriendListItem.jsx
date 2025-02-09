@@ -1,7 +1,6 @@
 import css from "./FriendListItem.module.css";
 
 export default function FriendListItem({ avatar, name, isOnline }) {
-  // isOnline color css
   const statusClassName = isOnline ? css.online : css.offline;
   return (
     <div className={css.card}>
